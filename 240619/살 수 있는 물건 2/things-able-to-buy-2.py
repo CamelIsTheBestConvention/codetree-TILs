@@ -1,4 +1,4 @@
-a = int(input())
+a = int(input().strip())
 
 if a >= 3000:
     print("book")
