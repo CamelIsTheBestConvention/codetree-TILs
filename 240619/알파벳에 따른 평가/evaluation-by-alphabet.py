@@ -1,7 +1,5 @@
 import sys
-
 input = sys.stdin.readline
-a = input()
 
 def grade(a):
     if a == 'S':
@@ -17,5 +15,6 @@ def grade(a):
     else:
         print("Failure")
 
+a = input().strip()
 
 grade(a)
