@@ -15,7 +15,7 @@ def grade(a):
     elif a == 'D':
         print("Effort")
     else:
-        print("Faulure")
+        print("Failure")
 
 
 grade(a)
