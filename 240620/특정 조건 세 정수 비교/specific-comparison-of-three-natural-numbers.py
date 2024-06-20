@@ -2,7 +2,7 @@ a, b, c = map(int, input().split())
 re1 = 0
 re2 = 0
 
-if a < b and a < c:
+if a <= b and a <= c:
     re1 = 1
 else:
     re1 = 0
