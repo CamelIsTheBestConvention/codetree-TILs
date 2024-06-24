@@ -1,14 +1,12 @@
 a, b, c = map(int, input().split())
-cnt = a
+exist = False
 
 for i in range(a, b+1):
-    if cnt == b:
-        print("NO")
+    if i % c == 0:
+        exist = True
         break
 
-    if c % i == 0:
-        print("YES")
-        break
-    else:
-        cnt += 1
-        continue
+if exist:
+    print("NO")
+else:
+    print("YES")
