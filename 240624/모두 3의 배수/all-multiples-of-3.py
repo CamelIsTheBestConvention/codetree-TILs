@@ -5,6 +5,8 @@ for i in range(5):
 
     if a % 3 == 0:
         exist = True
+    else:
+        break
 
 if exist:
     print(1)
