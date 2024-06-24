@@ -6,6 +6,7 @@ for i in range(5):
     if a % 3 == 0:
         exist = True
     else:
+        exist = False
         break
 
 if exist:
