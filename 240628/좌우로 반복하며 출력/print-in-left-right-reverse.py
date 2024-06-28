@@ -7,7 +7,7 @@ for i in range(n):
             print(cnt, end='')
             cnt += 1
     else:
-        cnt = 4
+        cnt = n
         for j in range(n):
             print(cnt, end='')
             cnt -= 1
