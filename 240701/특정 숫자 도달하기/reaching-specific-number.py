@@ -11,5 +11,5 @@ for i in arr:
         sum += i
         cnt += 1
     
-    print(sum, end=' ')
-    print("%.1f" % (sum/cnt), end=' ')
+print(sum, end=' ')
+print("%.1f" % (sum/cnt), end=' ')
