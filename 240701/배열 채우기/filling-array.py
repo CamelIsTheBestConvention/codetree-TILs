@@ -1,7 +1,11 @@
 arr = list(map(int, input().split()))
+arr2 = []
 
-for i in range(len(arr)-1, -1, -1):
+for i in range(len(arr)):
     if arr[i] == 0:
-        continue
+        break
     else:
-        print(arr[i], end=' ')
+        arr2.append(arr[i])
+
+for i in range(len(arr2)-1, -1, -1):
+    print(arr2[i], end=' ')
