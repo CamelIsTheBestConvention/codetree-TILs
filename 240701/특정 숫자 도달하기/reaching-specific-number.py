@@ -7,6 +7,9 @@ for i in arr:
         print(sum, end=' ')
         print("%.1f" % (sum/cnt), end=' ')
         break
-
-    sum += i
-    cnt += 1
+    else:
+        sum += i
+        cnt += 1
+    
+    print(sum, end=' ')
+    print("%.1f" % (sum/cnt), end=' ')
