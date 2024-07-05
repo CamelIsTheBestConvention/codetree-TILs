@@ -4,6 +4,8 @@ arr2 = [0] * 10
 for i in range(len(arr)):
     if arr[i] == 0:
         break
+    elif arr[i] < 10:
+        continue
         
     score = arr[i] // 10
 
